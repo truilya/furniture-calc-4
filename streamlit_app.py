@@ -30,7 +30,7 @@ from decimal import Decimal
 BASE_URL = "https://gptunnel.ru/v1"
 MODELS = ["gpt-6-astra", "claude-fable-5.1", "gemini-3.8-flash", "deepseek-v4-pro"]
 MAX_UPLOAD = 20 * 1024 * 1024
-MAX_TEXT = 80_000
+MAX_TEXT = 800_000
 MAX_XLSX = 10 * 1024 * 1024
 MAX_UNPACKED = 80 * 1024 * 1024
 MAX_ENTRIES = 5000
